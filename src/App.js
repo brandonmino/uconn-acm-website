@@ -6,42 +6,39 @@ import './App.css';
 export function Header() {
   return (
     <div className="header-row">
-      <div className="header-column">
+      <div className="header-column header-logo-column">
         <img src={logo} className="header-logo" alt="header-logo"/>
       </div>
-      <div className="header-column">
-        <p className="header-about">About</p>
+      <div className="header-column header-column-tabs">
+        <p className="header-tab-text">About</p>
       </div>
-      <div className="header-column">
-        <p className="header-subgroups">Subgroups</p>
+      <div className="header-column header-column-tabs">
+        <p className="header-tab-text">Subgroups</p>
       </div>
-      <div className="header-column">
-        <p className="header-projects">Projects</p>
+      <div className="header-column header-column-tabs">
+        <p className="header-tab-text">Projects</p>
       </div>
-      <div className="header-column">
-        <p className="header-tutorials">Tutorials</p>
+      <div className="header-column header-column-tabs">
+        <p className="header-tab-text">Tutorials</p>
       </div>
-      <div className="header-column">
-        <p className="header-contact">Contact</p>
+      <div className="header-column header-column-tabs">
+        <p className="header-tab-text">Contact</p>
       </div>
     </div>
   )
 }
 
-
 export function Footer() {
   return (
     <div className="footer-row">
       <div className="footer-column">
-        <div className="resources">
-          <p className="footer-resources">Resources</p>
-        </div>
+          <p>Resources</p>
       </div>
       <div className="footer-column">
-        <img src={logo} className="footer-logo" alt="footer-logo"/>
+        <img src={logo} alt="footer-logo"/>
       </div>
       <div className="footer-column">
-        <p className="footer-legal">Legal</p>
+        <p>Legal</p>
       </div>
     </div>
   );
@@ -49,15 +46,17 @@ export function Footer() {
 
 export function Home() {
   return (
-    <div id="home-body">
-      <p className="home-title"> Welcome to UConn ACM</p>
+    <div className="home-body">
+      <div className="home-title">
+        <p>Welcome to UConn ACM</p>
+      </div>
       <Slider/>
-      <div id="about-container">
-        <p className="about-title">About Us</p>
-        <div className="about-text-container">
-          <p className="about-text">
-            This will be filled with useful info eventually...
-          </p>
+      <div className="about-container">
+        <div className="about-title">
+          <p>About Us</p>
+        </div>
+        <div className="about-text">
+          <p>This will be filled with useful info eventually...</p>
         </div>
       </div>
     </div>
@@ -78,15 +77,15 @@ const slideProperties = {
 
 export default function Slider () {
   return (
-      <div className="slide-container">
-        <Slide {...slideProperties}>
-          <div className="each-slide">
-            <div style={{'backgroundImage': 'url(' + require('./images/placeholder1.jpg') + ')'}}></div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': 'url(' + require('./images/placeholder2.jpg') + ')'}}></div>
-          </div>
-        </Slide>
-      </div>
+    <div className="slide-container">
+      <Slide {...slideProperties}>
+        <div className="each-slide">
+          <div style={{'backgroundImage': 'url(' + require('./images/placeholder1.jpg') + ')'}}></div>
+        </div>
+        <div className="each-slide">
+          <div style={{'backgroundImage': 'url(' + require('./images/placeholder2.jpg') + ')'}}></div>
+        </div>
+      </Slide>
+    </div>
   )
 }
