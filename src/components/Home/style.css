@@ -1,0 +1,15 @@
+.home-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home-title {
+    display: flex;
+    flex: 1;
+    font-size: 5vw;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,32 @@
+.header-row {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    width: 100vw;
+    background-color: #7dc8f9;
+}
+.header-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7dc8f9;
+    font-size: 2.15vh;
+}
+.header-logo-column {
+    padding: 1vh 2vw;
+}
+.header-logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+.header-column-tabs {
+    padding: 1vh 1vw;
+    color: white;
+    font-weight: bold;
+}
+.header-tab-text {
+    max-width: 100%;
+    max-height: 100%;
+}

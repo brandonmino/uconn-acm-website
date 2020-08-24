@@ -1,0 +1,69 @@
+.slide-container {
+    top: 100vh;
+    width: 75vw;
+}
+.each-slide > div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+.react-slideshow-container .nav[data-type="prev"] span {
+    border-right: none;
+    border-top: none;
+}
+.react-slideshow-container .nav[data-type="next"] span {
+    margin-right: 5px;
+    border-left: none;
+    border-bottom: none;
+}
+.each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+}
+.each-fade {
+    display: flex;
+  }
+.each-fade .image-container {
+    width: 75%;
+    overflow: hidden;
+}
+.each-fade .image-container img {
+    width: 100%;
+}
+.each-fade h2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+}
+.react-slideshow-container + div.indicators > div:last-of-type {
+    margin-right: 10px;
+}
+.react-slideshow-container .nav {
+    background: #000e2f;
+    transition: 0.3s;
+}
+.react-slideshow-container .nav span {
+    border-color: white;
+}
+.react-slideshow-container .nav:hover {
+    background-color: #000e2f;
+    box-shadow: 0 0 5px 3px white;
+}
+.react-slideshow-container .nav span:hover {
+    border-color: white;
+}
+.react-slideshow-container + div.indicators > .each-slideshow-indicator {
+    transition: 0.3s;
+}
+.react-slideshow-container + div.indicators > .each-slideshow-indicator:hover {
+    background: #adceed;
+}
+.react-slideshow-container + div.indicators > .each-slideshow-indicator:active {
+    background: white;
+}
