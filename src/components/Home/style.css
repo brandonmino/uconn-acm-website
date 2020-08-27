@@ -1,10 +1,12 @@
 .body {
     display: flex;
     flex: 1;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 30px;
 }
 .title {
     display: flex;
