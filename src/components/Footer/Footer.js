@@ -6,7 +6,9 @@ export default function Footer() {
     return (
       <div className="footer-row">
         <div className="footer-column">
-          <img src={logo} alt="footer-logo"/>
+          <div className="logo-container">
+            <img src={logo} className="logo" alt="footer-logo"/>
+          </div>
           <div className="resource-paragraph">
             <p>Association for Computing Machinery <br/>
               University of Connecticut <br/>
