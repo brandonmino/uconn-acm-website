@@ -1,0 +1,26 @@
+.body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title {
+    display: flex;
+    flex: 1;
+    color: white;
+    font-weight: bold;
+}
+.text-box {
+    display: flex;
+    width: 70vw;
+    margin: 30px 0 180px 0;
+}
+.paragraph {
+    align-self: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+}

@@ -1,4 +1,4 @@
-.home-body {
+.body {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -6,7 +6,7 @@
     align-items: center;
     text-align: center;
 }
-.home-title {
+.title {
     display: flex;
     flex: 1;
     font-size: 5vw;
