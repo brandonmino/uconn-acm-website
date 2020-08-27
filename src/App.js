@@ -10,25 +10,6 @@ import './App.css';
 export default function App(props) {
   const [currentScreen, setCurrentScreen] = useState('home');
 
-  let tempScreen = null;
-
-  switch(currentScreen) {
-    case 'home':
-      tempScreen = <Home/>
-      break;
-    case 'about':
-      tempScreen = <About/>
-      break;
-    case 'calendar':
-      tempScreen = <Calendar/>
-      break;
-    case 'contact':
-      tempScreen = <Contact/>
-      break;
-    default:
-      break;
-  }
-
   const handleCurrentScreen = (screen) => {
     setCurrentScreen(screen)
   }
@@ -36,7 +17,10 @@ export default function App(props) {
   return (
     <Fragment>
       <Header handleCurrentScreen={(value) => {handleCurrentScreen(value)}}/>
-      {tempScreen}
+      <Home visible={currentScreen === "home" ? true : false}/>
+      <About visible={currentScreen === "about" ? true : false}/>
+      <Calendar visible={currentScreen === "calendar" ? true : false}/>
+      <Contact visible={currentScreen === "contact" ? true : false}/>
       <Footer/>
     </Fragment>
   );

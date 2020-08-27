@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
 
-export default function Contact() {
+export default function Contact(props) {
     return (
-        <div className="body">
+        <div className={props.visible ? "body-show" : "body-hidden"}>
             <div className="title">
-                <p>Contact Us</p>
+                <p className="title-text">Contact Us</p>
             </div>
             <form action="https://mailthis.to/uconnacm" method="POST" encType="multipart/form-data">
                 <label htmlFor="name">Name</label>

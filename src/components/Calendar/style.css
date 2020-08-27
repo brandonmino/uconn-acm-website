@@ -1,0 +1,31 @@
+.body-show {
+    opacity: 1;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.body-hidden {
+    opacity: 0;
+    overflow: hidden;
+    height: 0;
+    width: 0;
+    transition-duration: 0s;
+}
+.title {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    min-width: 100%;
+    color: white;
+    font-weight: bold;
+}
+.title-text {
+    text-align: center;
+    white-space: nowrap;
+}

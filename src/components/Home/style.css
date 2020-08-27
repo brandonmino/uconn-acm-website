@@ -1,4 +1,7 @@
-.body {
+.body-show {
+    opacity: 1;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
     display: flex;
     flex: 1;
     width: 100%;
@@ -7,6 +10,13 @@
     align-items: center;
     text-align: center;
     margin-bottom: 30px;
+}
+.body-hide {
+    opacity: 0;
+    overflow: hidden;
+    height: 0;
+    width: 0;
+    transition-duration: 0s;
 }
 .title {
     display: flex;

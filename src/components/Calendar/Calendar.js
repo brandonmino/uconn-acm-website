@@ -1,10 +1,12 @@
 import React from 'react';
 import './style.css';
 
-export default function Calendar() {
+export default function Calendar(props) {
     return (
-        <div>
-            <h1>Calendar</h1>
+        <div className={props.visible ? "body-show" : "body-hidden"}>
+            <div className="title">
+                <p className="title-text">Calendar</p>
+            </div>
         </div>
     );
 }

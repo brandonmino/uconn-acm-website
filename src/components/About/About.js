@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css'
 
-export default function About() {
+export default function About(props) {
     return (
-        <div className="body">
+        <div className={props.visible ? "body-show" : "body-hidden"}>
             <div className="title">
-                <p>About ACM</p>
+                <p className="title-text">About ACM</p>
             </div>
             <div className="text-box">
                 <p className="paragraph">The ACM chapter at the University of Connecticut is a student club interested in the advancement of technology. Membership is open to anyone with an interest in learning about technology, gaining professional advice, or those just looking to meet new people.
