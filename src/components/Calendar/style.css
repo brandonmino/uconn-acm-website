@@ -29,3 +29,43 @@
     text-align: center;
     white-space: nowrap;
 }
+.calendar-container {
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+}
+.calendar-title-container {
+    margin-top: -40px;
+}
+.top-item-container {
+    margin: 0px 0px 10px 0px;
+}
+.item-container {
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    color: white;
+    background-color: #7dc8f9;
+    border-radius: 12px;
+    padding: 0px 10px 0px 10px;
+    margin: 10px 0px 10px 0px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.calendar-text-header {
+    font-weight: bold;
+    text-indent: 1em;
+    white-space: nowrap;
+}
+.calendar-text-body {
+    text-align: center;
+    white-space: nowrap;
+}
+.header-text {
+    color: white;
+    white-space: nowrap;
+}
+.link-text {
+    color: #7dc8f9;
+}
