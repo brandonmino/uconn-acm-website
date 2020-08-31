@@ -32,13 +32,13 @@ export default function Calendar(props) {
             <div className="calendar-container">
                 <div className="item-container">
                     <p className="calendar-text-header">Week 4 / September 29: &nbsp;</p>
-                    <p className="calendar-text-body">Travelers Workshop</p>
+                    <p className="calendar-text-body">TBD</p>
                 </div>
             </div>
             <div className="calendar-container">
                 <div className="item-container">
                     <p className="calendar-text-header">Week 5 / October 6: &nbsp;</p>
-                    <p className="calendar-text-body">TBD</p>
+                    <p className="calendar-text-body">Travelers Workshop</p>
                 </div>
             </div>
             <div className="calendar-container">
