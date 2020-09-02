@@ -5,7 +5,7 @@ export default function About(props) {
     return (
         <div className={props.visible ? "body-show" : "body-hidden"}>
             <div className="title">
-                <p className="title-text">About ACM</p>
+                <p>About ACM</p>
             </div>
             <div className="text-box">
                 <p className="paragraph">The ACM chapter at the University of Connecticut is a student club interested in the advancement of technology. Membership is open to anyone with an interest in learning about technology, gaining professional advice, or those just looking to meet new people.

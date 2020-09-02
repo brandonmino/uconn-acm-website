@@ -3,7 +3,7 @@
     transition-delay: 0.2s;
     transition-duration: 1s;
     display: flex;
-    flex: 1;
+    flex: 0.8;
     flex-direction: column;
     width: 100%;
     justify-content: center;
@@ -19,13 +19,10 @@
 }
 .title {
     display: flex;
-    flex: 1;
-    justify-content: center;
-    min-width: 100%;
+    flex: 0.2;
     color: white;
+    font-size: 5vw;
     font-weight: bold;
-}
-.title-text {
     text-align: center;
     white-space: nowrap;
 }

@@ -3,12 +3,9 @@
     transition-delay: 0.2s;
     transition-duration: 1s;
     display: flex;
-    flex: 1;
+    flex: 0.8;
     width: 100%;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 .body-hide {
     opacity: 0;
@@ -19,19 +16,16 @@
 }
 .title {
     display: flex;
-    flex: 1;
-    justify-content: center;
-    min-width: 100%;
+    flex: 0.2;
     color: white;
+    font-size: 5vw;
     font-weight: bold;
-}
-.title-text {
     text-align: center;
     white-space: nowrap;
 }
 form {
     display: flex;
-    flex: 1;
+    flex: 0.9;
     flex-direction: column !important;
     width: 50vw;
     color: white;

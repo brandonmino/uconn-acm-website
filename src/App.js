@@ -22,12 +22,14 @@ export default function App() {
         <title>UConn ACM</title>
         <link rel="canonical" href="https://uconnacm.netlify.app/" />
       </Helmet>
-      <Header handleCurrentScreen={(value) => {handleCurrentScreen(value)}}/>
-      <Home visible={currentScreen === "home" ? true : false}/>
-      <About visible={currentScreen === "about" ? true : false}/>
-      <Calendar visible={currentScreen === "calendar" ? true : false}/>
-      <Contact visible={currentScreen === "contact" ? true : false}/>
-      <Footer/>
+      <div className="app-container">
+        <Header handleCurrentScreen={(value) => {handleCurrentScreen(value)}}/>
+        <Home visible={currentScreen === "home" ? true : false}/>
+        <About visible={currentScreen === "about" ? true : false}/>
+        <Calendar visible={currentScreen === "calendar" ? true : false}/>
+        <Contact visible={currentScreen === "contact" ? true : false}/>
+        <Footer/>
+      </div>
     </Fragment>
   );
 }

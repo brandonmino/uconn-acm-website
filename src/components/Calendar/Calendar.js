@@ -6,7 +6,7 @@ export default function Calendar(props) {
     return (
         <div className={props.visible ? "body-show" : "body-hidden"}>
             <div className="title">
-                <p className="title-text">Calendar</p>
+                <p>Calendar</p>
             </div>
             <div className="calendar-container calendar-title-container">
                 <p className="header-text">All general body meetings are on Tuesdays on 7pm via Microsoft Teams. To join our Team, click {teamsLink}</p>
@@ -20,7 +20,13 @@ export default function Calendar(props) {
             <div className="calendar-container">
                 <div className="item-container">
                     <p className="calendar-text-header">Week 2 / September 15: &nbsp;</p>
-                    <p className="calendar-text-body">Cigna Big Data Workshop</p>
+                    <p className="calendar-text-body">Microsoft Learn Workshop</p>
+                </div>
+            </div>
+            <div className="calendar-container">
+                <div className="item-container">
+                    <p className="calendar-text-header">Week 2 / September 16: &nbsp;</p>
+                    <p className="calendar-text-body">UPE & ACM Cigna Event</p>
                 </div>
             </div>
             <div className="calendar-container">
@@ -32,7 +38,7 @@ export default function Calendar(props) {
             <div className="calendar-container">
                 <div className="item-container">
                     <p className="calendar-text-header">Week 4 / September 29: &nbsp;</p>
-                    <p className="calendar-text-body">TBD</p>
+                    <p className="calendar-text-body">Cigna Big Data Workshop</p>
                 </div>
             </div>
             <div className="calendar-container">
@@ -50,7 +56,7 @@ export default function Calendar(props) {
             <div className="calendar-container">
                 <div className="item-container">
                     <p className="calendar-text-header">Week 7 / October 20: &nbsp;</p>
-                    <p className="calendar-text-body">Brooksource Info session and Interview Tips</p>
+                    <p className="calendar-text-body">Brooksource Info Session and Interview Tips</p>
                 </div>
             </div>
             <div className="calendar-container">

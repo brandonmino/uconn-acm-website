@@ -6,7 +6,7 @@ export default function Home(props) {
     return (
       <div className={props.visible ? "body-show" : "body-hidden"}>
         <div className="title">
-          <p className="title-text">Welcome to Uconn ACM</p>
+          <p>Welcome to Uconn ACM</p>
         </div>
         <Slider/>
       </div>

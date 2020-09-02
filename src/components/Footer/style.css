@@ -1,6 +1,6 @@
 .footer-row {
     display: flex;
-    flex: 1;
+    flex: 0.2;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -10,14 +10,14 @@
 }
 .footer-column {
     display: flex;
-    flex: 1;
+    flex: 0.2;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
 }
 .logo-container {
-    width: 4%;
+    width: 20%;
 }
 .logo {
     max-width: 100%;
