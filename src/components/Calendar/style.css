@@ -45,7 +45,7 @@
 .item-container {
     display: flex;
     flex: 1;
-    justify-content: start;
+    justify-content: flex-start;
     color: white;
     background-color: #7dc8f9;
     border-radius: 12px;
