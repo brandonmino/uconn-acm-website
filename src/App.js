@@ -6,8 +6,9 @@ import About from './components/About/About';
 import Calendar from './components/Calendar/Calendar';
 import Contact from './components/Contact/Contact';
 import './App.css';
+import { Helmet } from 'react-helmet';
 
-export default function App(props) {
+export default function App() {
   const [currentScreen, setCurrentScreen] = useState('home');
 
   const handleCurrentScreen = (screen) => {
@@ -16,6 +17,11 @@ export default function App(props) {
 
   return (
     <Fragment>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>UConn ACM</title>
+        <link rel="canonical" href="https://uconnacm.netlify.app/" />
+      </Helmet>
       <Header handleCurrentScreen={(value) => {handleCurrentScreen(value)}}/>
       <Home visible={currentScreen === "home" ? true : false}/>
       <About visible={currentScreen === "about" ? true : false}/>
