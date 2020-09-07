@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
-import mslogo from '../../assets/MSLearn.png';
+import mslogo from '../../assets/MSLearn.PNG';
 import rmlogo from '../../assets/ripplematchlogo.png';
 import './style.css';
 
@@ -16,7 +16,7 @@ export default function Footer() {
               <img src={logo} className="logo" color="transparent" alt="footer-logo"/>
             </div>
             <div className="image-container">
-              <img src={mslogo} className="logo" alt="footer-ms-logo"/>
+              <img src={mslogo} className="logo ms-logo" alt="footer-ms-logo"/>
             </div>
           </div>
           <div className="resource-paragraph">
