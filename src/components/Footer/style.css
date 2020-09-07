@@ -20,7 +20,12 @@
     display: flex;
     flex: 1;
     flex-direction: row;
-    width: 20%;
+    align-content: center;
+    justify-content: center;
+}
+.image-container {
+    display: flex;
+    width: 40%;
 }
 .logo {
     max-width: 100%;
