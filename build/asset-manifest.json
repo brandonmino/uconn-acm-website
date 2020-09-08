@@ -1,25 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd2cdb9d.chunk.css",
-    "main.js": "/static/js/main.c57156d4.chunk.js",
-    "main.js.map": "/static/js/main.c57156d4.chunk.js.map",
+    "main.css": "/static/css/main.25065c62.chunk.css",
+    "main.js": "/static/js/main.8d557986.chunk.js",
+    "main.js.map": "/static/js/main.8d557986.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.736320c0.js",
     "runtime-main.js.map": "/static/js/runtime-main.736320c0.js.map",
-    "static/js/2.2489748e.chunk.js": "/static/js/2.2489748e.chunk.js",
-    "static/js/2.2489748e.chunk.js.map": "/static/js/2.2489748e.chunk.js.map",
+    "static/js/2.f856112a.chunk.js": "/static/js/2.f856112a.chunk.js",
+    "static/js/2.f856112a.chunk.js.map": "/static/js/2.f856112a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2a1874e938fd31d17b8673a93212681c.js": "/precache-manifest.2a1874e938fd31d17b8673a93212681c.js",
+    "precache-manifest.163a71ecc1de188cda41ff463cc8650f.js": "/precache-manifest.163a71ecc1de188cda41ff463cc8650f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.bd2cdb9d.chunk.css.map": "/static/css/main.bd2cdb9d.chunk.css.map",
-    "static/js/2.2489748e.chunk.js.LICENSE.txt": "/static/js/2.2489748e.chunk.js.LICENSE.txt",
-    "static/media/logo.png": "/static/media/logo.d491653e.png",
-    "static/media/placeholder1.jpg": "/static/media/placeholder1.9d5303a7.jpg",
-    "static/media/placeholder2.jpg": "/static/media/placeholder2.9457ccf4.jpg"
+    "static/css/main.25065c62.chunk.css.map": "/static/css/main.25065c62.chunk.css.map",
+    "static/js/2.f856112a.chunk.js.LICENSE.txt": "/static/js/2.f856112a.chunk.js.LICENSE.txt",
+    "static/media/MSLearn.PNG": "/static/media/MSLearn.3f3da6be.PNG",
+    "static/media/image1.jpg": "/static/media/image1.35dc21de.jpg",
+    "static/media/image2.jpg": "/static/media/image2.f2b9df9a.jpg",
+    "static/media/image3.jpg": "/static/media/image3.aeac8b13.jpg",
+    "static/media/image4.jpg": "/static/media/image4.f89b00f9.jpg",
+    "static/media/image5.jpg": "/static/media/image5.ccc33e05.jpg",
+    "static/media/image6.jpg": "/static/media/image6.317f89b8.jpg",
+    "static/media/image7.jpg": "/static/media/image7.a533e93b.jpg",
+    "static/media/image8.jpg": "/static/media/image8.5effeb7a.jpg",
+    "static/media/logo.png": "/static/media/logo.3878014a.png",
+    "static/media/ripplematchlogo.png": "/static/media/ripplematchlogo.2043871b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.736320c0.js",
-    "static/js/2.2489748e.chunk.js",
-    "static/css/main.bd2cdb9d.chunk.css",
-    "static/js/main.c57156d4.chunk.js"
+    "static/js/2.f856112a.chunk.js",
+    "static/css/main.25065c62.chunk.css",
+    "static/js/main.8d557986.chunk.js"
   ]
 }
