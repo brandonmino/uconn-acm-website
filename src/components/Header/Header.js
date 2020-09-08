@@ -18,5 +18,5 @@ export default function Header(props) {
           <button type="button" className="header-tab-text" onClick={() => {props.handleCurrentScreen('contact')}}>Contact</button>
         </div>
       </div>
-    )
+    );
 }
