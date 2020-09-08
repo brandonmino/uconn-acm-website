@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
-import mslogo from '../../assets/MSLearn.PNG';
+import mslogo from '../../assets/MSLearn.png';
 import rmlogo from '../../assets/ripplematchlogo.png';
 import './style.css';
 
