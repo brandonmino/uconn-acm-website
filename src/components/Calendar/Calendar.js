@@ -38,7 +38,7 @@ export default function Calendar(props) {
             <div className="calendar-container">
                 <div className="item-container">
                     <p className="calendar-text-header">Week 4 / October 6: &nbsp;</p>
-                    <p className="calendar-text-body">Travelers Workshop</p>
+                    <p className="calendar-text-body">Travelers Info Session</p>
                 </div>
             </div>
             <div className="calendar-container">
