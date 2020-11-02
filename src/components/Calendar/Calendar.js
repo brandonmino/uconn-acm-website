@@ -56,25 +56,25 @@ export default function Calendar(props) {
             <div className="calendar-container">
                 <div className="item-container">
                     <p className="calendar-text-header">Week 7 / October 27: &nbsp;</p>
-                    <p className="calendar-text-body">TBD</p>
+                    <p className="calendar-text-body">ACM Game Night</p>
                 </div>
             </div>
             <div className="calendar-container">
                 <div className="item-container">
                     <p className="calendar-text-header">Week 8 / November 3: &nbsp;</p>
-                    <p className="calendar-text-body">TBD</p>
+                    <p className="calendar-text-body">Cigna Escape Room</p>
                 </div>
             </div>
             <div className="calendar-container">
                 <div className="item-container">
                     <p className="calendar-text-header">Week 9 / November 10: &nbsp;</p>
-                    <p className="calendar-text-body">TBD</p>
+                    <p className="calendar-text-body">Subgroup Presentations</p>
                 </div>
             </div>
             <div className="calendar-container">
                 <div className="item-container">
                     <p className="calendar-text-header">Week 10 / November 17: &nbsp;</p>
-                    <p className="calendar-text-body">TBD</p>
+                    <p className="calendar-text-body">Slalom Info Session and Meaningful Feedback Presentation</p>
                 </div>
             </div>
         </div>
